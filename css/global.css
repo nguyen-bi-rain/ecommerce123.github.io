@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: Eina02;
+    src: url('../fonts/63e9b5a63945900d75e8aee2_Eina02-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: Eina02;
+    src: url('../fonts/63e9b5cb9b72421fc2ed6e80_Eina01-SemiBold.ttf');
+    font-weight: 600;
+}
+:root{
+    --text-font :'Inter', sans-serif;
+    --body-font: 'Enina02',sans-serif;
+    --primary-color: #003D29;
+    --secondary-color: #FFE6CC;
+    --text-color: #FFE6CC;
+
+}
+
+h1{
+    font-family: var(--body-font);
+    font-weight: 700;
+    font-size: 30px;
+}
