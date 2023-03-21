@@ -1,13 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
+
 <body>
-    <h1>hello</h1>
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <div class="logo-wrapper">
+                    <a href="/" class="logo">
+                        <img src="../image/background/logo.svg" alt="" class="logo-img">
+                    </a>
+                </div>
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Category <i class='bx bx-chevron-down'></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">What's New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Delivery</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search-wrapper">
+                    <input type="text" class="search-input" placeholder="Search Product ">
+                    <i class='bx bx-search search-icon'></i>
+                </div>
+
+                <div class="user-actions">
+                    <div class="action">
+                        <i class='bx bx-user action-icon'></i>
+                        <span>Account</span>
+                    </div>
+                    <div class="action">
+                        <i class='bx bx-cart-add action-icon'></i>
+                        <span>Cart</span>
+                    </div>
+                </div>
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="banner">
+                <img src="../image/background/bacthang.jpg" loading="lazy" sizes="(max-width: 1239) 100vw, 1240px"
+                    alt="" class="img-banner banner-animate">
+                <img src="../image/background/bg-behide1.png" alt="" class="hero-banner-1">
+                <img src="../image/background/bg-behide2.png" alt="" class="hero-banner-2">
+                <img src="../image/background/bg-behide-3.png" alt="" class="hero-banner-3">
+                <img src="../image/background/bg-behide.png" alt="" class="hero-banner-4">
+            </div>
+            <div class="hero-content">
+                <div class="overlay">
+                    <h1 class="hero-heading animate">
+                        Shopping And <br>
+                        Department Store.
+                    </h1>
+                </div>
+                <div class="overlay">
+                    <p class="hero-des animate">
+                        Shopping is a bit of a relaxing hobby for me, which <br> is sometimes troubling for the bank
+                        balance.
+                    </p>
+                </div>
+                <div class="overlay">
+                    <button class="hero-btn btn-primary animate">
+                        learn more
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <section class="catories">
+            <div class="catorie-container container">
+                <h2 class="catories-heading heading">Shop Our Top Categories</h2>
+                <div class="catorie-list">
+                    <div class="catories-item">
+                        <img src="../image/catories/catories1.png" alt="" class="catorie-img">
+                        <span class="catorie-name">furniture</span>
+                    </div>
+                    <div class="catories-item">
+                        <img src="../image/catories/catories2.png" alt="" class="catorie-img">
+                        <span class="catorie-name">hand bag</span>
+                    </div>
+                    <div class="catories-item">
+                        <img src="../image/catories/catories3.png" alt="" class="catorie-img">
+                        <span class="catorie-name">books</span>
+                    </div>
+                    <div class="catories-item">
+                        <img src="../image/catories/catories6.png" alt="" class="catorie-img">
+                        <span class="catorie-name">tech</span>
+                    </div>
+                    <div class="catories-item">
+                        <img src="../image/catories/catories5.png" alt="" class="catorie-img">
+                        <span class="catorie-name">sneakers</span>
+                    </div>
+                    <div class="catories-item">
+                        <img src="../image/catories/catories4.png" alt="" class="catorie-img">
+                        <span class="catorie-name">travel</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="suggestDeals">
+            <div class="container-suggest container">
+                <h3 class="heading suggest-heading">
+                    Todays Best Deals For You!
+                </h3>
+                <div class="suggest-list">
+                    <div class="suggest-item">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span class="suggest-item_product-priceCost">$</span>239<span class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span class="suggest-item_product-priceCost">$</span>239<span class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                    <div class="suggest-item">
+                        <div class="suggest-item_image">
+                            <img src="../image/product6.png" alt="" class="suggest-img">
+                            <i class='bx bx-heart heart-icon'></i>
+                        </div>
+                        <div class="suggest-item_content">
+                            <div class="suggest-item_product">
+                                <h4 class="suggest-item_product-name">HomePod mini</h4>
+                                <p class="suggest-item_product-price"><span class="suggest-item_product-priceCost">$</span>239<span class="suggest-item_product-priceCost">.00</span></p>
+                            </div>
+                            <p class="suggest-item_des">Table with air purifier, stanined veneer/back</p>
+                            <div class="suggest-item_rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <span> (121) </span>
+                            </div>
+                            <a href="" class="btn-secondary btn">Add cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
