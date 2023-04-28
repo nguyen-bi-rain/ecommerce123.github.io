@@ -17,7 +17,7 @@
     --secondary-color: #FFE6CC;
     --border-color: #DADBDB;
     --tag-color:#C34482;
-    --text-color:#231F13;
+    --text-color:#231F1E;
 
 }
 *,*::before,*::after {
@@ -59,6 +59,7 @@ button{
     color:var(--text-color);
     margin:20px 0 40px;
     font-family: var(--body-font);
+    text-transform: capitalize;
 }
 .btn{
     padding:14px 23px;
@@ -74,11 +75,18 @@ button{
     color:#FFFFFF;
     background-color: var(--primary-color);
     font-weight: 700;
+    z-index: 10000;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    transition: all 0.2s ease;
+    background-color: #231F1E;
+    cursor: pointer;
 }
 .btn-secondary{
-    font-weight: 2rem;
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-weight: 1.8rem;
+    font-size: 1.4rem;
+    font-weight: 600;
     
 }
 .btn-secondary:hover{
@@ -129,5 +137,26 @@ button{
     }
     to{
         transform:scale(1);
+    }
+}
+
+@keyframes dropDown{
+    from{
+        transform: translateY(-200%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
+
+@media only screen and (max-width:992px) {
+    .container{
+        padding:40px 20px;
+    }
+}
+@media only screen and (max-width:479px) {
+    .container{
+        padding:0 15px;
     }
 }
